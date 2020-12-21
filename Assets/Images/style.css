@@ -1,0 +1,34 @@
+body {
+    background-image: url("./IMG_0894.jpg"); background-size:cover; color: #ffffff;
+    
+}
+
+#style-name {
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: aqua;
+    border: 5px solid aqua;   
+}
+
+.float-left {
+    float:left,
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.about-me {
+    border: 2px solid green;
+}
+
+img {
+    border: 2px solid green;
+    padding: 5px;
+}
+
+p {
+    border:2px solid red;
+}
