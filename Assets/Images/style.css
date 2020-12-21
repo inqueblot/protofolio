@@ -6,8 +6,8 @@ body {
 #style-name {
     font-weight: bolder;
     color: #ffffff;
-    background-color: aqua;
-    border: 5px solid aqua;   
+    background-color: 	#009999;
+    border: 5px solid 	#009999;   
 }
 
 .float-left {
@@ -20,15 +20,20 @@ body {
     display: table;
 }
 
+h1 {
+    color: #009999;
+}
+
 .about-me {
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    color: black;
 }
 
 img {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding: 5px;
 }
 
-p {
+/* p {
     border:2px solid red;
-}
+} */
