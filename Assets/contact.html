@@ -9,18 +9,20 @@
 
 </head>
 <body>
+    <!-- Navigation across top -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand top-name"  href="#">Jimi Simon</a>
+        <a class="navbar-brand" id="top-name"  href="#">Jimi Simon</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-right">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                <!-- move sr-only and nav-item active current to match filename -->
+              <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
@@ -32,12 +34,14 @@
     
 
     
-    <div class="container">
+    <div class="container content-style">
           <div class="row">
 
-            <div class="col-lg-8">
+            <div class="col-sm-6">
 
                 <h1>Contact</h1>
+
+                <hr>
 
                 <form id="contact-form" method="post" action="contact.php" role="form">
 
@@ -46,10 +50,10 @@
                     <div class="controls">
                 
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label for="form_name">Name *</label>
-                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                    <label for="form_name">Name</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Firstname is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -58,8 +62,8 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="form_email">Email *</label>
-                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                    <label for="form_email">Email</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -68,8 +72,8 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="form_message">Message *</label>
-                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                    <label for="form_message">Message</label>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please,leave us a message."></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -77,11 +81,7 @@
                                 <input type="submit" class="btn btn-success btn-send" value="submit">
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="http://bootstrapious.com" target="_blank">Bootstrapious</a>.</p>
-                            </div>
-                        </div>
+                        
                     </div>
                 
                 </form>
