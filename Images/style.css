@@ -4,6 +4,7 @@ body {
     
 }
 
+/* makes square buttons and forms */
 .form-control {
     border-radius: 0;
     }
@@ -13,8 +14,6 @@ body {
     background-color: #009999;
 }
 
-
-
 #top-name {
     font-weight: bolder;
     color: #ffffff;
@@ -22,41 +21,24 @@ body {
     border: 5px solid 	#009999;
 }
 
-.float-left {
-    float:left,
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 h1 {
     color: #009999;
     font-weight:bold
 }
 
-.about-me {
-    /* border: 2px solid green; */
-    color: black;
-}
-
 img {
-    /* border: 2px solid green; */
+    height:300px;
+    width:300px;/* border: 2px solid green; */
     padding: 5px;
 }
 
-/* p {
-    border:2px solid red;
-} */
-
-.content-style {
+.container {
     background-color: white;
     color: black;
     margin-top: 70px;
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 70px;
     justify-content:left;
     padding-bottom: 15px;
     width: 75%;
