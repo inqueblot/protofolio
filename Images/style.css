@@ -15,15 +15,25 @@ body {
 }
 
 #top-name {
-    font-weight: bolder;
-    color: #ffffff;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 0px;
+    font-weight:900;
+    color: black;
     background-color: 	#009999;
     border: 5px solid 	#009999;
+    border-radius: 10px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: .27px;
+    height: 3em;
+    width: 175px;
 }
 
 h1 {
     color: #009999;
-    font-weight:bold
+    font-weight:bold;
+    padding-top: 15px;
 }
 
 img {
