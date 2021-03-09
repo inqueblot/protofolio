@@ -1,0 +1,24 @@
+{
+  "name": "protofolio",
+  "version": "1.0.0",
+  "description": "This a step in learning to code and implement websites. The project was an \"about me\" portfolio as that will eventually be a necessary building block in my career. The project was built using Bootstrap 4.5 and illustrates a basic understanding up a grid system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inqueblot/protofolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inqueblot/protofolio/issues"
+  },
+  "homepage": "https://github.com/inqueblot/protofolio#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
