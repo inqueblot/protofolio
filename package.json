@@ -2,7 +2,7 @@
   "name": "protofolio",
   "version": "1.0.0",
   "description": "This a step in learning to code and implement websites. The project was an \"about me\" portfolio as that will eventually be a necessary building block in my career. The project was built using Bootstrap 4.5 and illustrates a basic understanding up a grid system.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node run server"
@@ -23,5 +23,14 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
   }
 }
